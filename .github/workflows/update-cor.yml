@@ -3,7 +3,7 @@ name: Actualizare COR.json automată
 on:
   schedule:
     - cron: '0 4 * * *'  # rulează zilnic la ora 04:00 UTC
-  workflow_dispatch:     # permite rulare manuală
+  workflow_dispatch:     # permite declanșare manuală
 
 jobs:
   update:
@@ -21,4 +21,4 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add COR.json
           git diff --cached --quiet || git commit -m "Actualizare automată COR.json"
-          git push
+          git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }} HEAD:main
