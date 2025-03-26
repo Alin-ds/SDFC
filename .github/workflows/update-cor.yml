@@ -3,11 +3,12 @@ name: Actualizare COR.json automată
 on:
   schedule:
     - cron: '0 4 * * *'  # rulează zilnic la ora 04:00 UTC
-  workflow_dispatch:     # permite declanșare manuală
+  workflow_dispatch:     # permite rulare manuală din tabul Actions
 
 jobs:
   update:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout repo
         uses: actions/checkout@v3
@@ -15,10 +16,14 @@ jobs:
       - name: Fetch latest COR data
         run: curl -s https://cor.mmuncii.ro/api/cor-code/external -o COR.json
 
-      - name: Commit & push dacă sunt modificări
+      - name: Configure Git & commit dacă sunt modificări
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config --global user.name "github-actions[bot]"
           git add COR.json
           git diff --cached --quiet || git commit -m "Actualizare automată COR.json"
-          git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }} HEAD:main
+
+      - name: Push modificările
+        uses: ad-m/github-push-action@v0.6.0
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
