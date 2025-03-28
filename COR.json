@@ -18155,6 +18155,10 @@
     {
       "code": "962913",
       "value": "supraveghetor hotel"
+    },
+    {
+      "code": "999999",
+      "value": "Altele"
     }
   ]
 }
