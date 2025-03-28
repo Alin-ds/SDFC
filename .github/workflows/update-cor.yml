@@ -13,12 +13,17 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v3
 
-      - name: Fetch latest COR data & filtrează doar coduri de 6 cifre
+      - name: Fetch latest COR data, filtrează coduri de 6 cifre și adaugă 'Altele'
         run: |
           sudo apt-get update && sudo apt-get install -y jq
           curl --connect-timeout 10 --max-time 30 --retry 3 --retry-delay 5 \
-          -s https://cor.mmuncii.ro/api/cor-code/external -o cor-source.json
-          cat cor-source.json | jq 'select(.codes) | {codes: [.codes[] | select(.code | tostring | match("^[0-9]{6}$"))]}' > COR.json
+            -s https://cor.mmuncii.ro/api/cor-code/external -o cor-source.json
+
+          cat cor-source.json | jq 'select(.codes) | {
+            codes: ([.codes[] | select(.code | tostring | match("^[0-9]{6}$"))]
+            + [{"code": "999999", "value": "Altele"}])
+          }' > COR.json
+
           echo "Preview (primele 10 linii):"
           head COR.json
 
@@ -27,7 +32,7 @@ jobs:
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git config --global user.name "github-actions[bot]"
           git add COR.json
-          git diff --cached --quiet || git commit -m "Actualizare automată COR.json (filtrat 6 cifre)"
+          git diff --cached --quiet || git commit -m "Actualizare automată COR.json (cu 'Altele')"
 
       - name: Push modificările în branch-ul main
         uses: ad-m/github-push-action@v0.6.0
