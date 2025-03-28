@@ -16,9 +16,10 @@ jobs:
       - name: Fetch latest COR data & filtrează doar coduri de 6 cifre
         run: |
           sudo apt-get update && sudo apt-get install -y jq
-          curl -s https://cor.mmuncii.ro/api/cor-code/external \
-            | jq '[.codes[] | select(.code | tostring | test("^[0-9]{6}$"))] | {codes: .}' \
-            > COR.json
+          curl -s https://cor.mmuncii.ro/api/cor-code/external -o cor-source.json
+          cat cor-source.json | jq 'select(.codes) | {codes: [.codes[] | select(.code | tostring | match("^[0-9]{6}$"))]}' > COR.json
+          echo "Preview (primele 10 linii):"
+          head COR.json
 
       - name: Configure Git & commit dacă sunt modificări
         run: |
