@@ -701,10 +701,6 @@
       "value": "coordonator conformitate"
     },
     {
-      "code": "121118",
-      "value": "manager securitatea informaţiei (Chief Information Security Officer -CISO)"
-    },
-    {
       "code": "121119",
       "value": "comisar şef divizie Garda Financiară"
     },
@@ -1803,6 +1799,10 @@
     {
       "code": "133047",
       "value": "conducător întreprindere mică - patron (girant) în comunicaţii"
+    },
+    {
+      "code": "133048",
+      "value": "manager securitatea informaţiei (Chief Information Security Officer -CISO)"
     },
     {
       "code": "134201",
@@ -2927,6 +2927,10 @@
     {
       "code": "213152",
       "value": "inginer biotehnolog"
+    },
+    {
+      "code": "213153",
+      "value": "cercetator in bioinformatica"
     },
     {
       "code": "213201",
@@ -4127,6 +4131,10 @@
     {
       "code": "214538",
       "value": "specialist tehnologia alimentelor"
+    },
+    {
+      "code": "214539",
+      "value": "enolog"
     },
     {
       "code": "214601",
@@ -5541,6 +5549,10 @@
       "value": "audiolog"
     },
     {
+      "code": "226605",
+      "value": "terapeut vocal"
+    },
+    {
       "code": "226701",
       "value": "optometrist (studii superioare)"
     },
@@ -5875,6 +5887,10 @@
     {
       "code": "235926",
       "value": "profesor itinerant și de sprijin"
+    },
+    {
+      "code": "235927",
+      "value": "instructor-formator de limba cultura si civilizatie romaneasca"
     },
     {
       "code": "241101",
@@ -6485,6 +6501,14 @@
       "value": "atașat pentru muncă și afaceri sociale"
     },
     {
+      "code": "242240",
+      "value": "expert autorizare proiecte de dezvoltare regionala"
+    },
+    {
+      "code": "242241",
+      "value": "responsabil monitorizare si evaluare"
+    },
+    {
       "code": "242301",
       "value": "consilier forţă de muncă şi şomaj"
     },
@@ -6778,7 +6802,7 @@
     },
     {
       "code": "243302",
-      "value": "reprezentant medical"
+      "value": "reprezentant vanzari in domeniul medical"
     },
     {
       "code": "251101",
@@ -6893,12 +6917,24 @@
       "value": "dezvoltator jocuri digitale"
     },
     {
-      "code": "251401",
-      "value": "specialist în domeniul proiectării asistate pe calculator"
+      "code": "251308",
+      "value": "designer de nivel jocuri digitale"
     },
     {
-      "code": "251402",
-      "value": "specialist în proceduri şi instrumente de securitate a sistemelor informatice"
+      "code": "251309",
+      "value": "animator digital 2D 3D jocuri video"
+    },
+    {
+      "code": "251310",
+      "value": "artist digital 2D jocuri video"
+    },
+    {
+      "code": "251311",
+      "value": "artist digital 3D jocuri video"
+    },
+    {
+      "code": "251401",
+      "value": "specialist în domeniul proiectării asistate pe calculator"
     },
     {
       "code": "251901",
@@ -6967,6 +7003,10 @@
     {
       "code": "252912",
       "value": "inginer de sisteme înglobate"
+    },
+    {
+      "code": "252913",
+      "value": "specialist în proceduri şi instrumente de securitate a sistemelor informatice"
     },
     {
       "code": "261101",
@@ -8679,6 +8719,18 @@
     {
       "code": "311313",
       "value": "tehnician instalare turbine eoliene"
+    },
+    {
+      "code": "311314",
+      "value": "tehnician surse de energie regenerabila"
+    },
+    {
+      "code": "311315",
+      "value": "tehnician instalare turbine eoliene offshore"
+    },
+    {
+      "code": "311316",
+      "value": "tehnician mentenanta preventiva si corectiva turbine eoliene offshore"
     },
     {
       "code": "311401",
@@ -10573,6 +10625,10 @@
       "value": "mediator şcolar"
     },
     {
+      "code": "341906",
+      "value": "instructor de limba cultura si civilizatie romaneasca"
+    },
+    {
       "code": "342101",
       "value": "fotbalist profesionist"
     },
@@ -10711,6 +10767,10 @@
     {
       "code": "342310",
       "value": "instructor de dans"
+    },
+    {
+      "code": "342311",
+      "value": "instructor de pilates"
     },
     {
       "code": "343101",
@@ -10929,6 +10989,14 @@
       "value": "analist testare software"
     },
     {
+      "code": "351109",
+      "value": "operator testare jocuri digitale"
+    },
+    {
+      "code": "351110",
+      "value": "coordonator echipa testare jocuri video"
+    },
+    {
       "code": "351201",
       "value": "programator ajutor"
     },
@@ -10939,6 +11007,34 @@
     {
       "code": "351203",
       "value": "tehnician TIC"
+    },
+    {
+      "code": "351204",
+      "value": "operator creatie jocuri digitale"
+    },
+    {
+      "code": "351205",
+      "value": "tehnician designer jocuri digitale"
+    },
+    {
+      "code": "351206",
+      "value": "tehnician design de nivel jocuri digitale"
+    },
+    {
+      "code": "351207",
+      "value": "tehnician animator digital 2D 3D jocuri video"
+    },
+    {
+      "code": "351208",
+      "value": "tehnician arta digitala 2D jocuri video"
+    },
+    {
+      "code": "351209",
+      "value": "tehnician arta digitala 3D jocuri video"
+    },
+    {
+      "code": "351210",
+      "value": "coordonator comunitate jocuri video"
     },
     {
       "code": "352101",
@@ -12159,6 +12255,10 @@
     {
       "code": "516404",
       "value": "dresor câini"
+    },
+    {
+      "code": "516405",
+      "value": "ingrijitor caini"
     },
     {
       "code": "516501",
@@ -17379,6 +17479,10 @@
     {
       "code": "818908",
       "value": "operator montaj linii automate"
+    },
+    {
+      "code": "818909",
+      "value": "operator biotehnolog protectia mediului"
     },
     {
       "code": "821101",
