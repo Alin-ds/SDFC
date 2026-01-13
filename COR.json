@@ -833,6 +833,10 @@
       "value": "manager comunicare guvernamentală"
     },
     {
+      "code": "121312",
+      "value": "manager in modelarea informatiei constructiei"
+    },
+    {
       "code": "121901",
       "value": "şef serviciu"
     },
@@ -1115,6 +1119,10 @@
     {
       "code": "131123",
       "value": "președinte cooperativă agricolă"
+    },
+    {
+      "code": "131124",
+      "value": "director de asociatie de vanatoare"
     },
     {
       "code": "131201",
@@ -4609,6 +4617,10 @@
       "value": "inginer pentru inspecția și verificarea tehnică a cazanelor, instalațiilor de ridicat și recipientelor sub presiune"
     },
     {
+      "code": "214961",
+      "value": "inginer cinegetician"
+    },
+    {
       "code": "215101",
       "value": "dispecer energetic feroviar"
     },
@@ -5195,6 +5207,10 @@
     {
       "code": "216313",
       "value": "asistent de cercetare în arte plastice - sticlă, ceramică, metal"
+    },
+    {
+      "code": "216314",
+      "value": "designer de interior"
     },
     {
       "code": "216401",
@@ -6343,6 +6359,18 @@
     {
       "code": "242122",
       "value": "manager de cost pentru dezvoltarea proiectului"
+    },
+    {
+      "code": "242123",
+      "value": "consultant in modelarea informatiei constructiei"
+    },
+    {
+      "code": "242124",
+      "value": "coordonator in modelarea informatiei constructiei"
+    },
+    {
+      "code": "242125",
+      "value": "specialist in modelarea informatiei constructiei"
     },
     {
       "code": "242201",
@@ -7557,10 +7585,6 @@
       "value": "art - terapeut"
     },
     {
-      "code": "263505",
-      "value": "asistent social cu competenţă în sănătatea mintală"
-    },
-    {
       "code": "263506",
       "value": "specialist în evaluarea vocaţională a persoanelor cu dizabilităţi"
     },
@@ -8669,6 +8693,10 @@
       "value": "tehnician ataşamentist"
     },
     {
+      "code": "311218",
+      "value": "tehnician in modelarea informatiei constructiei"
+    },
+    {
       "code": "311301",
       "value": "dispecer gestiune uraniu"
     },
@@ -9595,6 +9623,10 @@
     {
       "code": "315317",
       "value": "tehnician aviaţie"
+    },
+    {
+      "code": "315318",
+      "value": "pilot de drona"
     },
     {
       "code": "315401",
@@ -10727,6 +10759,10 @@
     {
       "code": "342220",
       "value": "antrenor național"
+    },
+    {
+      "code": "342221",
+      "value": "instructor de sah"
     },
     {
       "code": "342301",
@@ -12259,6 +12295,10 @@
     {
       "code": "516405",
       "value": "ingrijitor caini"
+    },
+    {
+      "code": "516406",
+      "value": "cresctor de caini"
     },
     {
       "code": "516501",
@@ -16355,6 +16395,10 @@
     {
       "code": "814130",
       "value": "operator fabricarea şi prelucrarea polimerilor"
+    },
+    {
+      "code": "814131",
+      "value": "vulcanizator anvelope"
     },
     {
       "code": "814201",
