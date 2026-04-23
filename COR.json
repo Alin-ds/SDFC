@@ -797,10 +797,6 @@
       "value": "şef serviciu organizaţie politică, obştească, umanitară"
     },
     {
-      "code": "121303",
-      "value": "inspector protecţie civilă"
-    },
-    {
       "code": "121304",
       "value": "şef executiv audit intern"
     },
@@ -5689,6 +5685,14 @@
       "value": "terapeut în terapie asistată de animale"
     },
     {
+      "code": "226930",
+      "value": "tehnician dentar licentiat"
+    },
+    {
+      "code": "226931",
+      "value": "igienist dentar pentru cabinet stomatologie"
+    },
+    {
       "code": "231001",
       "value": "asistent universitar"
     },
@@ -8697,6 +8701,14 @@
       "value": "tehnician in modelarea informatiei constructiei"
     },
     {
+      "code": "311219",
+      "value": "tehnician pentru sisteme si instalatii de semnalizare alarmare si alertare in caz de incendiu"
+    },
+    {
+      "code": "311220",
+      "value": "tehnician pentru sisteme si instalatii de limitare si stingere a incendiilor"
+    },
+    {
       "code": "311301",
       "value": "dispecer gestiune uraniu"
     },
@@ -10021,6 +10033,10 @@
       "value": "tehnician ergonomist"
     },
     {
+      "code": "325730",
+      "value": "inspector protectie civila"
+    },
+    {
       "code": "325801",
       "value": "brancardier"
     },
@@ -10394,19 +10410,11 @@
     },
     {
       "code": "335101",
-      "value": "controlor vamal, controlor pentru datoria vamală (studii medii)"
-    },
-    {
-      "code": "335102",
-      "value": "revizor vamal"
+      "value": "controlor vamal"
     },
     {
       "code": "335103",
       "value": "referent TIR şi tranzite (studii medii)"
-    },
-    {
-      "code": "335104",
-      "value": "referent vamal (studii medii)"
     },
     {
       "code": "335105",
@@ -10414,7 +10422,7 @@
     },
     {
       "code": "335106",
-      "value": "controlor vamal, controlor pentru datoria vamală, agent vamal (studii superioare)"
+      "value": "agent vamal (studii superioare)"
     },
     {
       "code": "335107",
@@ -14939,14 +14947,6 @@
     {
       "code": "742104",
       "value": "operator in verificarea, întreţinerea şi repararea instalaţiilor speciale de prevenire şi stingere a incendiilor"
-    },
-    {
-      "code": "742105",
-      "value": "tehnician pentru sisteme şi instalaţii de semnalizare, alarmare şi alertare în caz de incendiu"
-    },
-    {
-      "code": "742106",
-      "value": "tehnician pentru sisteme şi instalaţii de limitare şi stingere a incendiilor"
     },
     {
       "code": "742201",
