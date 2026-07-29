@@ -3213,6 +3213,10 @@
       "value": "manager al sistemelor de management de mediu"
     },
     {
+      "code": "213313",
+      "value": "specialist economie circulara"
+    },
+    {
       "code": "214101",
       "value": "inginer confecţii piele şi înlocuitori"
     },
@@ -6541,6 +6545,14 @@
       "value": "responsabil monitorizare si evaluare"
     },
     {
+      "code": "242242",
+      "value": "specialist dezvoltare durabia"
+    },
+    {
+      "code": "242243",
+      "value": "expert economie circulara"
+    },
+    {
       "code": "242301",
       "value": "consilier forţă de muncă şi şomaj"
     },
@@ -7819,6 +7831,10 @@
     {
       "code": "263648",
       "value": "eclesiarh"
+    },
+    {
+      "code": "263649",
+      "value": "asistent pastoral"
     },
     {
       "code": "264101",
@@ -9243,6 +9259,10 @@
     {
       "code": "311944",
       "value": "creator/conceptor articole vestimentare"
+    },
+    {
+      "code": "311945",
+      "value": "tehnician gemolog"
     },
     {
       "code": "312101",
