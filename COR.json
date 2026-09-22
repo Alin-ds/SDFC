@@ -953,6 +953,10 @@
       "value": "manager clienți strategici"
     },
     {
+      "code": "122111",
+      "value": "manager de licitatii"
+    },
+    {
       "code": "122201",
       "value": "şef agenţie reclamă publicitară"
     },
@@ -8010,7 +8014,7 @@
     },
     {
       "code": "264316",
-      "value": "interpret al limbajului mimico-gestual"
+      "value": "interpret in limba semnelor romane"
     },
     {
       "code": "265101",
@@ -10607,6 +10611,10 @@
     {
       "code": "341207",
       "value": "tehnician egalitate de șanse"
+    },
+    {
+      "code": "341208",
+      "value": "expert servicii comunitare integrate"
     },
     {
       "code": "341301",
